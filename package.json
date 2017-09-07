@@ -1,0 +1,19 @@
+{
+  "name": "ping-pong",
+  "version": "1.0.0",
+  "description": "API to verify RapidAPI/Mashape Proxy are still working",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Alex Walling",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}
