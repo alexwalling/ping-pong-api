@@ -12,6 +12,5 @@ routes(app);
 
 app.listen(port);
 
-
 console.log('Listening on PORT: ' + port);
 
