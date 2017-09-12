@@ -8,6 +8,12 @@ module.exports = function(app) {
   app.route('/pong')
     .get(controller.ping)
 
+  app.route('/professional-ping-pongs')
+    .get(controller.pro)
+
+  app.route('/amateur-ping-pong')
+    .get(controller.am)
+
   app.route('/')
     .get(controller.pong)
 };
