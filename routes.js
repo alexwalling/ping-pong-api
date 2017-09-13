@@ -12,7 +12,10 @@ module.exports = function(app) {
     .get(controller.pro)
 
   app.route('/amateur-ping-pong')
-    .get(controller.am)
+    .get(controller.ametuer)
+
+  app.route('/chance-ping-pong')
+    .get(controller.chance)
 
   app.route('/')
     .get(controller.pong)

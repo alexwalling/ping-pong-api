@@ -18,11 +18,19 @@ exports.pro = function(req, res) {
 	}
 };
 
-exports.am = function(req, res) {
+exports.ametuer = function(req, res) {
   	if(success <= .70){
 		res.json('pong');
 	} else {
 		res.status(400);
 		res.send('The Ametuer has failed');
+	}
+};
+
+exports.chance = function(req, res) {
+  	if(success <= .50){
+		res.json('ping');
+	} else {
+		res.json('pong');
 	}
 };
