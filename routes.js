@@ -8,7 +8,7 @@ module.exports = function(app) {
   app.route('/pong')
     .get(controller.ping)
 
-  app.route('/professional-ping-pongs')
+  app.route('/professional-ping-pong')
     .get(controller.pro)
 
   app.route('/amateur-ping-pong')

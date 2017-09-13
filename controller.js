@@ -9,7 +9,7 @@ exports.ping = function(req, res) {
 };
 
 exports.pro = function(req, res) {
-	let success = Math.random();
+	var success = Math.random();
 	if(success <= .90){
 		res.json('pong');
 	} else {
@@ -19,6 +19,7 @@ exports.pro = function(req, res) {
 };
 
 exports.ametuer = function(req, res) {
+	var success = Math.random();
   	if(success <= .70){
 		res.json('pong');
 	} else {
@@ -28,6 +29,7 @@ exports.ametuer = function(req, res) {
 };
 
 exports.chance = function(req, res) {
+	var success = Math.random();
   	if(success <= .50){
 		res.json('ping');
 	} else {
